@@ -1,0 +1,42 @@
+body, html{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(3, 40, 80);
+}
+
+h2 span{
+    
+    font-size: 25px;
+    color: #30698A;
+}
+
+.container{
+    font-family: 'Raleway', sans-serif;
+    color: #032850;
+    padding: 50px;
+    background-color: #3ADEED;
+    width: 55%;
+}
+
+li, p{
+    list-style:circle;
+    font-size: 18px;
+}
+
+
+.profile, h1{
+    display: flex;
+    justify-content: center;
+}
+
+.profile img{
+    width: 180px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #032850;
+}
